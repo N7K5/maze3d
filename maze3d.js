@@ -29,9 +29,9 @@ function setup() {
 
 	background(175);
 
+	player= new Walker(maze_size-1, maze_size-1);
 	//player= new Walker(maze_size-1, maze_size-1);
-	//player= new Walker(maze_size-1, maze_size-1);
-	player= new Walker(0, 1);
+	//player= new Walker(0, 1);
 }
 
 
@@ -94,7 +94,7 @@ function draw() {
 		}
 	}
 
-	console.log(player.jumping_cos_angle);
+	//console.log(player.jumping_cos_angle);
 
 }
 
